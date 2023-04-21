@@ -1,0 +1,46 @@
+@import url(variables.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-noto);
+}
+
+body{
+    font-family: var(--font-noto);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(162deg, rgba(134,37,210,1) 0%, rgba(210,175,244,1) 63%);
+}
+
+.main{
+    width: 30vw;
+    height: 50vh;
+    background: linear-gradient(162deg, rgba(18,2,31,1) 0%, rgba(55,43,66,1) 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    flex-direction: column;
+}
+
+label{
+    color: var(--cor-branco);
+}
+h2{
+    color: var(--cor-branco);
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+span{
+    color: var(--cor-branco);
+}
+
+a{
+    color: var(--cor-branco);
+}
